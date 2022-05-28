@@ -2,6 +2,7 @@ import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import Head from 'next/head';
+import Image from 'next/image';
 
 import Cart from '../../components/Cart';
 import StarRating from '../../components/StarRating';
@@ -48,7 +49,8 @@ export default function ProductById({ product }) {
       </div>
       <div className="detail-container">
         <div className="detail-container__image">
-          <img src={product.image} alt={product.title} />
+          {/* <img src={product.image} alt={product.title} /> */}
+          <Image src={product.image} alt={product.title} layout="intrinsic" width={500} height={500} />
         </div>
         <div className="detail-container__content">
           <div className="detail-container__content__title">

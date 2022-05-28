@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 
 import StarRating from '../components/StarRating';
@@ -36,7 +37,8 @@ export default function ProductCard({
   return (
     <div className="container__item">
       <div className="container__item__image">
-        <img src={imgSrc} alt={itemTitle} />
+        {/* <img src={imgSrc} alt={itemTitle} /> */}
+        <Image src={imgSrc} alt={itemTitle} width={300} height={300} />
       </div>
       <div className="container__item__title">
         <h1>
