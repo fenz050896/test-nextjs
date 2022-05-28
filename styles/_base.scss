@@ -1,0 +1,25 @@
+$primaryColor: #9E9E9E;
+$darkerColor: #616161;
+$accentColor: #607D8B;
+$whiteColor: #FFFFFF;
+$secondaryColor: #56707C;
+$errorColor: #f8d7da;
+
+$textBlack: #222222;
+$textWhite: #FFFFFF;
+$textError: #842029;
+
+$quarterEm: 0.25em;
+$halfEm: 0.5em;
+$quarterAndHalfEm: calc($quarterEm + $halfEm);
+$oneEm: 1em;
+$oneQuarterEm: 1.25em;
+$oneHalfEm: 1.5em;
+$oneQuarterAndHalfEm: calc(1em + $quarterAndHalfEm);
+$twoEm: 2em;
+
+$minProductContainer: 15em;
+$wrapperMaxInlineSize: 1400px;
+
+$tabletWidth: 700px;
+$desktopWidth: 960px;
